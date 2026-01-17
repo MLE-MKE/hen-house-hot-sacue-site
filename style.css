@@ -38,4 +38,67 @@ footer {
   padding: 1.5rem 1rem;
 }
 
-/* ---------- BA*
+/* ---------- HEN HOUSE BRAND COLORS ---------- */
+:root {
+  --hh-red: #C62828;        /* barn red */
+  --hh-gold: #FBC02D;       /* egg yolk */
+  --hh-orange: #F4511E;     /* chili orange */
+  --hh-amber: #FF9800;      /* flame amber */
+  --hh-black: #1A1A1A;      /* ink */
+  --hh-white: #FAFAFA;      /* off white */
+  --hh-muted-gold: #D4A017; /* aged gold */
+  --hh-parchment: #FAF6EE;  /* background parchment */
+}
+
+
+/* ---------- GLOBAL BASE ---------- */
+body {
+  background-color: var(--hh-parchment);
+  color: var(--hh-black);
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: var(--hh-red);
+}
+
+
+/* ---------- BUTTONS ---------- */
+.btn-primary {
+  background-color: var(--hh-red);
+  border-color: var(--hh-red);
+}
+
+.btn-primary:hover {
+  background-color: #a61f1f;
+  border-color: #a61f1f;
+}
+
+.btn-secondary {
+  background-color: var(--hh-gold);
+  border-color: var(--hh-gold);
+  color: var(--hh-black);
+}
+
+.btn-secondary:hover {
+  background-color: var(--hh-muted-gold);
+  border-color: var(--hh-muted-gold);
+}
+
+.btn-outline-secondary {
+  color: var(--hh-red);
+  border-color: var(--hh-red);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--hh-red);
+  color: var(--hh-white);
+}
+
+
+/* ---------- SECTION BACKGROUNDS ---------- */
+#story,
+#contact {
+  background-color: #fff;
+}
+
