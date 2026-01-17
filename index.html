@@ -245,32 +245,47 @@
   </div>
 </section>
 
+ <!--Come back and fix this later-->
+  <!--Reviews-->
   
-  <section id="reviews">
-    <h2>What Folks Are Saying</h2>
-    <div class="reviews-list">
-      <!-- review card -->
-      <!-- review card -->
-    </div>
-  </section>
 
   <!-- MERCH / EXTRAS -->
-  <section id="merch">
-    <h2>More From the Hen House</h2>
-    <div class="merch-grid">
-      <!-- merch item -->
-      <!-- merch item -->
-    </div>
-  </section>
+
 
   <!-- FOOTER -->
-  <footer>
-    <div class="footer-inner">
-      <!-- small logo -->
-      <!-- social links -->
-      <!-- copyright -->
+ <footer class="py-4 border-top">
+  <div class="container">
+    <div class="row align-items-center g-3">
+      <!-- Left: small logo + name -->
+      <div class="col-12 col-md-6 d-flex align-items-center gap-2">
+        <!-- PNG: small footer logo (optional) -->
+        <!-- <img src="assets/brand/logo-small.png" alt="Hen House Hot Sauce" style="height:40px;"> -->
+        <div>
+          <div class="fw-bold">Hen House Hot Sauce</div>
+          <div class="text-muted small">Small-batch • Wisconsin-made</div>
+        </div>
+      </div>
+
+      <!-- Right: links -->
+      <div class="col-12 col-md-6">
+        <div class="d-flex flex-wrap justify-content-md-end gap-3 small">
+          <a class="text-muted" href="#sauces">Sauces</a>
+          <a class="text-muted" href="#story">Our Story</a>
+          <a class="text-muted" href="#where">Where to Find Us</a>
+          <a class="text-muted" href="#contact">Contact</a>
+        </div>
+      </div>
     </div>
-  </footer>
+
+    <div class="mt-3 text-center text-muted small">
+      © <span id="year"></span> Hen House Hot Sauce. All rights reserved.
+    </div>
+  </div>
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 
 </body>
 </html>
