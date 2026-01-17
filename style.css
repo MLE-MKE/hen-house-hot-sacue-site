@@ -1,0 +1,41 @@
+/* ---------- CSS RESET ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  line-height: 1.5;
+  color: #111;
+  background-color: #fff;
+}
+
+/* ---------- LAYOUT RAILS ---------- */
+header,
+section,
+footer {
+  width: 100%;
+}
+
+.nav-inner,
+.hero-content,
+.sauce-grid,
+.story-content,
+.reviews-list,
+.merch-grid,
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+/* ---------- BA*
